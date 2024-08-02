@@ -1,0 +1,134 @@
+#section-projects-title {
+  color: var(--graphite-gray);
+  font-size: 6.25rem;
+  font-weight: 800;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+.section-projects {
+  color: var(--primary-500);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -8rem;
+  margin-left: 6%;
+  width: 80%;
+}
+
+#section-projects-title {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.projects-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.projects {
+  background: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #0000001a;
+  height: 27.5rem;
+  width: 22.5rem;
+}
+
+.projects-img img {
+  border-radius: 12px 12px 0 0;
+  height: 14rem;
+  width: 22.5rem;
+}
+
+.projects-infos {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .75rem;
+}
+
+.projects-title {
+  color: #1d1b20;
+  font-size: 1rem;
+  letter-spacing: .5px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-family: Popins, sans-serif;
+  font-style: normal;
+}
+
+.projects-tags {
+  height: 20px;
+  letter-spacing: .25px;
+  font-weight: 400;
+  color: #49454f;
+  font-size: .8rem;
+  line-height: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+.projects-description {
+  height: 5rem;
+  letter-spacing: .5px;
+  text-align: justify;
+  color: #49454f;
+  font-size: .8rem;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+.projects-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 0.7rem;
+  padding-right: 0.5rem;
+}
+
+.deployed-link-bg {
+  align-items: center;
+  background-color: #a450a1;
+  border-radius: 1100px;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  width: 6rem;
+}
+
+.deployed-link-bg a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+.repository-link-bg {
+  align-items: center;
+  background-color: #6750a4;
+  border-radius: 1100px;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  width: 6rem;
+}
+
+.repository-link-bg a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
